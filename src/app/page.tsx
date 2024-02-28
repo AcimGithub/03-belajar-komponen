@@ -1,4 +1,4 @@
-import Profile from "../components/profile";
+import { Gallery } from "@/components/gallery";
 import Image from "next/image";
 
 export default function Home() {
@@ -7,11 +7,7 @@ export default function Home() {
       <p style={{ textAlign: 'center' }}>
         Ilmuwan yang luar biasa
       </p>
-      <div className="columns-3">
-        <Profile />
-      <Profile />
-      <Profile />
-      </div>
+      <Gallery/>
     </div>
   );
 }
