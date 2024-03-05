@@ -1,5 +1,6 @@
 import { Gallery } from "@/components/gallery";
 import Image from "next/image";
+import TodoList from "@/components/todolist";
 
 
 // export default function Home() {
@@ -15,17 +16,13 @@ import Image from "next/image";
 
 export default function Bio() {
   return (
-    <>
-     <div className="intro">
-      <h1>Selamat datang di website saya!</h1>
-    </div>
-    <p>
-      Anda dapat membaca uneg-uneg.
-      <br />
-      <b>Juga ada <i>foto</i> ilmuwan!</b>
-    </p>
-    
-    </>
+     <section>
+      <h1 className="font-semibold text-slate-900 truncate pr-20 text-center">Ilmuwan yang luar biasa</h1>
+      <hr />
+      <Gallery />
+      <hr />
+      <TodoList />
+    </section>
    
   )
 }
