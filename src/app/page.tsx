@@ -14,6 +14,21 @@ import TodoList from "@/components/todolist";
 //   );
 // }
 
+// export default function Bio() {
+//   return (
+//     <>
+//     <div>
+//       <h1>Selamat datang di website!</h1>
+//     </div>
+//     <p>
+//       Anda dapat menbaca di sini.
+//       <br></br>
+//       <b>Juga ada <i>foto</i> ilmuwan!</b>
+//     </p>
+//     </>
+//   )
+// }
+
 export default function Bio() {
   return (
      <section>
